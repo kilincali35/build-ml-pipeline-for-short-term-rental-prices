@@ -28,19 +28,19 @@ entry_points:
       max_price:
         description: Max_price value for price
         type: float
-		
+
 	  min_longitude:
 		description: Min value for longitude
 		type: float
-	
+
 	  max_longitude:
 		description: Max value for longitude
 		type: float
-		
+
 	  min_latitude:
 		description: Min value for latitude
 		type: float
-		
+
 	  max_latitude:
 		description: Max value for latitude
 		type: float
