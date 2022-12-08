@@ -43,6 +43,11 @@ def go(args):
     max_price = args.max_price
     idx = df_last['price'].between(min_price, max_price)
     df_last = df_last[idx].copy()
+    
+    # filter outliers in 'longitude' column
+    idx = df['longitude'].between(args.min_longitude, args.max_longitude) & \
+        df['latitude'].between(args.min_latitude, args.max_latitude)
+    df = df[idx].copy()
 
     # Convert last_review to datetime
     logger.info("Convert last_review column type to date")
