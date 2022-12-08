@@ -113,6 +113,34 @@ if __name__ == "__main__":
         help="Maximum price value allowed",
         required=True
     )
+    
+    parser.add_argument(
+        "--min_latitude", 
+        type=float,
+        help="Minimum latitude value allowed",
+        required=True
+    )
+    
+    parser.add_argument(
+        "--max_latitude", 
+        type=float,
+        help="Maximum latitude value allowed",
+        required=True
+    )
+    
+    parser.add_argument(
+        "--min_longitude", 
+        type=float,
+        help="Minimum longitude value allowed",
+        required=True
+    )
+    
+    parser.add_argument(
+        "--max_longitude", 
+        type=float,
+        help="Maximum longitude value allowed",
+        required=True
+    )
 
 
     args = parser.parse_args()
