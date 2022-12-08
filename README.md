@@ -6,6 +6,22 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 
 In this project you will build such a pipeline.
 
+# Links for the reviewer
+
+## I couldn't find the interface
+W&B Project Page//Developer Group: https://wandb.ai/kilincali35/nyc_airbnb/groups/development?workspace=user-kilincali35
+
+## I couldn't find the buttons leading to developer group from below link, main project page. But I am sharing it anyways
+
+## It shows number of runs as 56, 50 are developer group runs. But it doesn't show any detail related to them. It is weird
+W&B Project Page: https://wandb.ai/kilincali35/nyc_airbnb?workspace=user-kilincali35
+
+##Github repository
+https://github.com/kilincali35/build-ml-pipeline-for-short-term-rental-prices
+
+
+
+
 ## Table of contents
 
 - [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
